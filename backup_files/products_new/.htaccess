@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{​​HTTP_HOST}​​ ^www\.mdccinternational\.com$
+RewriteRule ^/?$ "https\:\/\/mdccinternational\.com\/" [R=301,L]
+
