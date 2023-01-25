@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <title>Full screen galery - 2012 - Responsive HTML Template - ClaPat Studio</title>
+    
+    <link href="images/favicon.ico" rel="shortcut icon" />
+    
+    <meta name="description" content="">
+    <meta name="author" content="Patrick Fusariu">
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"/>
+	
+    
+    
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+    <!--Container fade in-->
+    <script type="text/javascript"> 
+	$(document).ready(function(){	 
+		$('#container').fadeIn(1000);	 
+	});	 
+	</script>
+    <!--/Container fade in-->
+    
+	
+	
+    
+    <!--Copyright pop-up-->  	
+	<script src="js/jquery.reveal.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#logo').click(function(e) { // Button which will activate our modal
+			   	$('#modal').reveal({ // The item which will be opened with reveal
+				  	animation: 'fade',                   // fade, fadeAndPop, none
+					animationspeed: 600,                       // how fast animtions are
+					closeonbackgroundclick: true,              // if you click background will modal close?
+					dismissmodalclass: 'close'    // the class of a button or element that will close an open modal
+				});
+			return false;
+			});
+		});
+	</script>
+    <!--/Copyright pop-up-->
+    
+    
+    <!-- Quicksand and PrettyPhoto-->
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+	<script type="text/javascript" src="js/jquery.quicksand.js"></script> 
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+	<script type="text/javascript" src="js/script.js"></script>
+    <!--/Quicksand and PrettyPhoto-->
+    
+    
+    
+    
+	<!--Tabs slide out-->
+    <script src="js/jquery.tabSlideOut.v1.3.js"></script>
+    <!--/Tabs slide out-->
+    
+    <!--Custom: Left and right menu, Accordion-->
+	<script src="js/custom.js" ></script>
+    <!--/Custom: Left and right menu, Accordion-->  
+    
+    
+    
+         
+         
+         
+         
+
+</head>
+
+
+
+<body>
+
+
+    <!-- Left Menu -->
+    <div class="slide-out-div-left">
+        <a class="handle-left">Content</a>
+        
+        <a href="#" id="logo"><img src="images/logo.png" alt="" /></a>
+        
+		<!-- Navigation -->
+        <ul id="navigation">
+        
+        	<div class="dark-line"></div>
+            
+            <li class="current first">
+                <a href="#"><img src="images/circle-white-icons/home.png" alt="" />Home</a>                
+                <ul>
+                    <li>
+                    
+                    	<h4>Home Page</h4>
+                    	
+                    	<a href="index.html">Home Page</a>
+                        <a href="touch_slider.html">Responsive Multitouch Slider</a>
+                        <a href="image_viewer.html">Image viewer</a>
+                        <a href="zuper_slider.html">Zuper slider carousel</a>
+                        <a href="video_background.html">Video background</a>
+                    
+                    </li>
+                </ul>                               
+            </li>
+            
+            <div class="dark-line"></div>
+            
+            <li>
+                <a href="#"><img src="images/circle-white-icons/clip.png" alt="" />Features</a>
+                <ul>
+                    <li>
+                    
+                    	<h4>Features Page</h4>
+                    	
+                    	<a href="about.html">About us</a>
+                        <a href="shortcodes.html">Shortcodes</a>
+                        <a href="pricing_tables.html">Pricing tables</a>
+                        <a href="404.html">404 error</a>
+                        <a href="width_types.html">Pages width types</a>
+                        <a href="countdown.html">Countdown page</a>
+                    
+                    </li>
+                </ul>                
+            </li>            
+            
+            <div class="dark-line"></div>
+            
+            
+            <li>
+                <a href="#"><img src="images/circle-white-icons/page.png" alt="" />Blog</a> 
+                <ul>
+                    <li>
+                    
+                    	<h4>Blog Pages</h4>
+                    	
+                    	<a href="blog_4.html">Full width blog</a>
+                        <a href="blog.html">Classic blog style</a>
+                        <a href="blog_post.html">Blog post</a>
+                    
+                    </li>
+                </ul>               
+            </li>
+            
+            <div class="dark-line"></div>
+            
+            <li>
+                <a href="#"><img src="images/circle-white-icons/photos.png" alt="" />Portfolio</a>
+                <ul>
+                    <li>
+                    
+                    	<h4>Portfolio Types</h4>
+                    	
+                        <a href="portfolio_4.html">4 Columns</a>
+                        <a href="portfolio_3.html">3 Columns</a>
+                        <a href="portfolio_2.html">2 Columns</a>
+                        <a href="project.html">Project page</a>
+                        <a href="project_simple.html">Simple project page</a>
+                    
+                    </li>
+                </ul>                 
+            </li>
+            
+            <div class="dark-line"></div>
+            
+            <li>
+                <a href="#"><img src="images/circle-white-icons/contact.png" alt="" />Contact</a>
+                <ul>
+                    <li>
+                    
+                    	<h4>Contact Pages</h4>
+                    	
+                    	<a href="contact_full.html">Full screen map</a>
+                        <a href="contact.html">Classic contact</a>
+                    
+                    </li>
+                </ul>
+            </li>
+            
+            <div class="dark-line"></div>
+            
+        </ul>
+        <!-- /Navigation -->   
+        
+    </div>
+    <!-- /Left Menu -->
+    
+    
+    
+    
+    
+    <!-- Right Menu -->
+    <div class="slide-out-div-right">
+        <a class="handle-right">Content</a>
+        
+        <div class="dark-line"></div>
+        <div class="portfolio-filters">
+        	<h3>Filters</h3>
+            <p class="half-transparent">View by categories</p>
+        </div>
+        
+		<dd>
+			<ul class="filter group"> 
+				<li class="current all"><a href="#">All Projects</a></li>
+                <li class="webdesign"><a href="#">Web Design</a></li> 
+				<li class="brandidentity"><a href="#">Brand Identity</a></li> 
+				<li class="photo"><a href="#">Photography</a></li>				 
+				<li class="printing"><a href="#">Printing</a></li>
+                <li class="webdevelopment"><a href="#">Web Development</a></li>  
+				<li class="wavelength"><a href="#">Others</a></li> 
+			</ul> 
+		</dd>
+
+    </div>
+    <!-- /Right Menu -->
+    
+    
+    
+    
+    	
+        
+        
+        
+        
+    <!-- Container -->
+    <div id="container" style="display:none"> 
+     
+                
+        <!-- Gallery Items -->
+        <ul class="portfolio group"> 
+        
+            <li class="item view view-image" data-id="id-1" data-type="webdesign">
+                <a href="images/portfolio/1.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/1_thumb.jpg" width="210" height="130"  />			
+                <div class="mask">                    
+                <div class="icon zoom"></div>
+                <h2>AutoMarket Portal</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li> 
+            
+            <li class="item view view-image" data-id="id-2" data-type="brandidentity">
+                <a href="images/portfolio/2.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/2_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon link"></div>
+                <h2>Creative Layout</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-3" data-type="brandidentity">
+                <a href="images/portfolio/3.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/3_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon video"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-4" data-type="printing">
+                <a href="images/portfolio/4.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/4_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon music"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-5" data-type="printing">
+                <a href="images/portfolio/5.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/5_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon zoom"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-6" data-type="photo">
+                <a href="images/portfolio/6.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/6_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon link"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-7" data-type="wavelength">
+                <a href="images/portfolio/7.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/7_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon video"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-8" data-type="webdevelopment">
+                <a href="images/portfolio/8.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/8_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon music"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-9" data-type="webdevelopment">
+                <a href="images/portfolio/9.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/9_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon zoom"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-10" data-type="brandidentity">
+                <a href="images/portfolio/10.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/10_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon link"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-11" data-type="webdevelopment">
+                <a href="images/portfolio/11.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/11_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon video"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-12" data-type="wavelength">
+                <a href="images/portfolio/12.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/12_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon music"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-13" data-type="webdesign">
+                <a href="images/portfolio/13.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/13_thumb.jpg" width="210" height="130" />			
+                <div class="mask">                    
+                <div class="icon zoom"></div>
+                <h2>AutoMarket Portal</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li> 
+            
+            <li class="item view view-image" data-id="id-14" data-type="brandidentity">
+                <a href="images/portfolio/14.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/14_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon link"></div>
+                <h2>Creative Layout</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-15" data-type="brandidentity">
+                <a href="images/portfolio/15.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/15_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon video"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-16" data-type="printing">
+                <a href="images/portfolio/16.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/16_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon music"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-17" data-type="printing">
+                <a href="images/portfolio/17.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/17_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon zoom"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-18" data-type="photo">
+                <a href="images/portfolio/18.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/18_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon link"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-19" data-type="wavelength">
+                <a href="images/portfolio/19.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/19_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon video"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-20" data-type="webdevelopment">
+                <a href="images/portfolio/20.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/20_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon music"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-21" data-type="webdevelopment">
+                <a href="images/portfolio/21.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/21_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon zoom"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-22" data-type="brandidentity">
+                <a href="images/portfolio/22.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/22_thumb.jpg" width="210" height="130" />	
+                <div class="mask">                    
+                <div class="icon link"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-23" data-type="webdevelopment">
+                <a href="images/portfolio/23.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/23_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon video"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-24" data-type="wavelength">
+                <a href="images/portfolio/24.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/24_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon music"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+            <li class="item view view-image" data-id="id-25" data-type="wavelength">
+                <a href="images/portfolio/25.jpg" rel="prettyPhoto[portfolio]"><img src="images/portfolio/25_thumb.jpg" width="210" height="130"  />	
+                <div class="mask">                    
+                <div class="icon zoom"></div>
+                <h2>Name of the project here</h2>
+                <p>Web Design, Brand Identity</p>
+                <p class="half-transparent">November 2012</p>
+                </div>
+                </a>
+            </li>
+            
+        </ul>
+        <!--/Gallery Items -->
+    
+    </div>   
+    <!-- Container -->    
+
+
+	<!-- Copyright -->     
+    <div id="modal">	
+    
+        <div id="copyright">               
+                    
+                    
+            <div class="icon "><a href="https://www.facebook.com/" target="_blank"><img src="images/circle-white-icons/facebook.png" alt="" /></a></div>
+            
+            <div class="icon "><a href="https://www.twitter.com/" target="_blank"><img src="images/circle-white-icons/twitter.png" alt="" /></a></div>
+            
+            <div class="icon "><a href="https://www.vimeo.com/" target="_blank"><img src="images/circle-white-icons/vimeo.png" alt="" /></a></div>
+            
+            <div class="icon "><a href="https://www.behance.net/" target="_blank"><img src="images/circle-white-icons/behance.png" alt="" /></a></div>        
+            
+            <p> &copy; 2012 Media. All rights reserved</p>    
+            
+        </div>
+        
+    </div>
+	<!-- /Copyright -->     
+
+</body>
+</html>
